@@ -1,0 +1,10 @@
+PseudoCode:
+bool check_palindrome
+	if the length of s is less than or equal to 1
+		return true
+	else 
+		return check_palindrome(s)
+
+
+Computational Complexity of Code:
+- The computational complexity of the code is O(n). 
